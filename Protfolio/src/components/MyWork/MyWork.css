@@ -1,4 +1,4 @@
-.mywork{
+/* .mywork{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,4 +97,188 @@
             margin: 50px auto;
             cursor: pointer;
         }
+}  */
+
+
+
+.mywork {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #000000;
+}
+
+.mywork-title{
+    position: relative;
+
+}
+.mywork-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600px;
+
+}
+.mywork-title img{
+    position: absolute;
+    bottom:0;
+    right: 1;
+    z-index: -1;
+}
+
+.mywork-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+
+.work-item {
+    background:rgb(26,26,26);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid wheat;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.work-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.work-image {
+    width: 100%;
+    /* height: 100%; */
+    object-fit:cover;
+
+}
+
+.work-details {
+    padding: 20px;
+    text-align: left;
+}
+
+.work-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    /* color: #333; */
+    background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.work-details p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.work-icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.work-icons img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.work-icons img:hover {
+    opacity: 0.7;
+}
+
+.work-tags {
+    display: flex;
+    gap: 10px;
+}
+
+.work-tags span {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.mywork-showmore {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mywork-showmore p {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    color: #333;
+}
+
+.mywork-showmore img {
+    width: 20px;
+    
+}
+
+@media (max-width: 768px) {
+    .mywork-title h1 {
+        font-size: 2rem;
+    }
+
+    .mywork-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .work-details h3 {
+        font-size: 1.3rem;
+    }
+
+    .work-details p {
+        font-size: 0.9rem;
+    }
+
+    .work-tags span {
+        font-size: 0.8rem;
+    }
+
+    .mywork-showmore p {
+        font-size: 1rem;
+    }
+
+    .mywork-showmore img {
+        width: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mywork-title h1 {
+        font-size: 1.5rem;
+    }
+
+    .mywork-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .work-details h3 {
+        font-size: 1.2rem;
+    }
+
+    .work-details p {
+        font-size: 0.8rem;
+    }
+
+    .work-tags span {
+        font-size: 0.7rem;
+    }
+
+    .mywork-showmore p {
+        font-size: 0.9rem;
+    }
+
+    .mywork-showmore img {
+        width: 12px;
+    }
 }

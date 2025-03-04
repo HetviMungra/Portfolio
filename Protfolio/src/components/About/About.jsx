@@ -17,9 +17,13 @@ export default function About() {
             </div>
             <div className="about-right">
                 <div className="about-para">
+                  
                     <p>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
-                </div>
-                <div className="about-skills">
+                       
+                    <p  className='p2'>A passionate BCA student currently in Semester 4, with additional training in Full Stack Development. Skilled in HTML, CSS, JavaScript, React, Node.js, MongoDB, and more, with strong foundations in C programming and DSA.</p>
+                    <p className='p3'> Gained hands-on experience and practical knowledge from the Institute of Red & White Education. Known for creating user-friendly, responsive, and efficient web applications. Eager to contribute innovative solutions and grow with a forward-thinking organization.</p>
+                </div> 
+                {/* <div className="about-skills">
                     <div className="about-skill"><p>HTML & CSS</p> <hr style={{width:"60%"}} /> </div>
                     <div className="about-skill"><p>React JS</p> <hr style={{width:"65%"}} /> </div>
                     <div className="about-skill"><p>JavaScript</p> <hr style={{width:"58%"}} /> </div>
@@ -28,11 +32,8 @@ export default function About() {
                     <div className="about-skill"><p>C</p> <hr style={{width:"50%"}} /> </div>
                     <div className="about-skill"><p>C++ </p> <hr style={{width:"40%"}} /> </div>
                     <div className="about-skill"><p>DSA </p> <hr style={{width:"60%"}} /> </div>
-                    
-
-
-
-                </div>
+                
+                </div> */}
             </div>
         </div>
         <div className='about-achievements'>

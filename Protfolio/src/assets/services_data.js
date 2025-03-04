@@ -1,23 +1,23 @@
 const Services_Data = [
     {
         s_no:"01",
-        s_name:"Programming Languages",
-        s_desc:"C,C++, HTML, CSS, JavaScript..."
+        s_name:"Frontend",
+        s_desc:"HTML, CSS, JavaScript, React.js , jquery ,Bootstrap ..."
     },
     {
         s_no:"02",
-        s_name:"Relevant Courses",
-        s_desc:"Data Structures And Algorithms (DSA), Object-Oriented Programming (OOPS), Database Management System (DBMS)"
+        s_name:"Backend",
+        s_desc:"Node with Express.js, C ..."
     },
     {
         s_no:"03",
-        s_name:"Frameworks",
-        s_desc:" React.js , jquery , Tailwind css , Bootstrap, REST APIs"
+        s_name:"Database and Authentication",
+        s_desc:"MongoDB and Firebase, JSON Web Token (JWT) "
     },
     {
         s_no:"04",
         s_name:"Developer Tools",
-        s_desc:" VS Code,Sublime text,dreamweaver, Git, GitHub ..."
+        s_desc:" VS Code , Sublime text ,dreamweaver, Git, GitHub ..."
     },
     {
         s_no:"05",
