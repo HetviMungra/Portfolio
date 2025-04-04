@@ -13,10 +13,8 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 margin: 20px 170px;
-/* border: 1px solid white; */
- padding:0px 30px ;
- background-color: rgba(45, 44, 44, 0.581);
- border-radius: 20px;
+padding:0px 30px ;
+
 }
 .navbar .logo-main{
     width: 150px;
@@ -106,4 +104,34 @@ margin: auto;
         flex-direction: row;
         gap: 20px;
     }
+}
+@media(max-width:390px){
+    .navbar{
+        margin: 20px 20px;
+        /* position: fixed; */
+        /* border: 1px solid white; */
+    }
+    .nav-menu{
+        width: 300px;
+        position: fixed;
+        /* border: 1px solid white; */
+
+    }
+    .nav-menu li{
+        font-size: 20px;
+        padding-left: 50px;
+    }
+    .nav-menu li img{
+        width: 20px;
+        height: 20px;
+    }
+    .nav-mob-close{
+        left: 250px;
+    }
+    .nav-mob-open{
+        right: 20px;
+    }
+    
+    
+   
 }

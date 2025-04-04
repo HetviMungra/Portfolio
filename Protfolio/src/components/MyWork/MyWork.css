@@ -282,3 +282,114 @@
         width: 12px;
     }
 }
+@media(max-width:390px){
+    .mywork{
+        margin: 20px 20px;
+    }
+    .mywork-title h1{
+        font-size: 40px;
+    }
+    .mywork-title img{
+        width: 100px;
+        margin-right: -10px;
+    }
+    .mywork-container{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .mywork-showmore{
+        padding: 20px 40px;
+        font-size: 18px;
+        margin: 50px auto;
+        cursor: pointer;
+    }
+    .mywork-showmore p{
+        font-size: 16px;
+    }
+    .mywork-showmore img{
+        width: 15px;
+    }
+    .work-details h3 {
+        font-size: 1.2rem;
+    }
+    .work-details p {
+        font-size: 0.8rem;
+    }
+    .work-tags span {
+        font-size: 0.7rem;
+    }
+    .work-icons img {
+        width: 20px;
+        height: 20px;
+    }
+    .work-icons img:hover {
+        opacity: 0.5;
+    }
+    .work-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .work-item {
+        border: 1px solid #ccc;
+    }
+    .work-item:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .work-details {
+        padding: 10px;
+    }
+    .work-details h3 {
+        margin-bottom: 5px;
+    }
+    .work-details p {
+        margin-bottom: 10px;
+    }
+    .work-icons {
+        margin-bottom: 10px;
+    }
+    .work-icons img {
+        width: 18px;
+        height: 18px;
+    }
+    .work-icons img:hover {
+        opacity: 0.5;
+    }
+    .work-tags {
+        margin-bottom: 10px;
+    }
+    .work-tags span {
+        padding: 3px 6px;
+        font-size: 0.6rem;
+    }
+    .mywork-showmore {
+        margin-top: 20px;
+    }
+    .mywork-showmore p {
+        font-size: 1rem;
+    }
+    .mywork-showmore img {
+        width: 15px;
+    }
+    .mywork-showmore:hover {
+        transform: scale(1.05);
+    }
+    .mywork-showmore:hover p {
+        color: #ff00ff;
+    }
+    .mywork-showmore:hover img {
+        transform: rotate(20deg);
+    }
+    .mywork-showmore:hover {
+        background: linear-gradient(267deg,#DA7C25 0.36%,#B923E1 102.06%);
+        color: #fff;
+    }
+    .mywork-showmore:hover p {
+        color: #fff;
+    }
+    .mywork-showmore:hover img {
+        transform: rotate(20deg);
+    }
+    
+
+}
