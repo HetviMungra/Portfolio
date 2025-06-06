@@ -16,7 +16,7 @@ export default function Hero() {
             foundation in both front-end and back-end development.</p>
             <div className='hero-action'>
                 <div className='hero-connect'> <AnchorLink className='anchor-link' offset={50} href='#contact'> Connect with Me </AnchorLink></div>
-<a href="Hetvi mungra resume.pdf" style={{textDecoration:"none", color:"white"}}>    <div className="hero-resume"  >  My resume</div>
+<a href="Hetvi Mungra - CV.pdf" style={{textDecoration:"none", color:"white"}}>    <div className="hero-resume"  >  My resume</div>
 </a>                
             </div>
     </div>
